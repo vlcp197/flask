@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-    {% is username is not None %}
+    {% if username != '' %}
     <p>Username logado: {{username}}</p>
     <p>Caso deseje sair <a href="/logout">logout</a></p>
     {% else %}
